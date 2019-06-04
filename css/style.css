@@ -1,0 +1,628 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+body{
+	background-color:#1E1F24;
+}
+header{
+	
+	width: 100%;
+	height: 140px;
+	background-color: #1E1F24;
+	
+}
+
+#logo{
+	margin: auto;
+	width: 200px;
+	height: 200px;
+}
+
+.sjlogo{
+	margin-top: 20px;
+	width: 100px;
+	height: 75px;
+
+}
+
+
+
+main{
+	background-image: url(../images/wein.jpg);
+	width: 100%;
+	height: 700px;
+	background-position: center;
+	background-repeat: no-repeat;
+	
+	
+}
+
+
+
+nav{
+
+	width: 60%;
+	height: 30px;
+	background-color:#1E1F24;
+	margin: auto;
+	margin-bottom: 30px;
+	
+
+	
+}
+
+nav ul li{
+	float: left;
+	list-style: none;
+	height: 30px;
+	line-height: 30px;
+	width: 200px;
+	text-align: center;
+	display: inline-block;
+	font-size: 26px;
+
+}
+
+nav ul li:hover{
+	border-bottom: 2px solid red;
+	color: gray;
+}
+
+
+
+nav ul li a{
+	color: gray;
+	text-decoration: none;
+	font-family: 'Vidaloka', serif;
+	font-weight: 700;
+	
+}
+
+#maincontent{
+	width: 25%;
+	position: absolute;
+    left: 40%;
+    top: 50%;
+    text-align: center;
+    background-color: #0475ab;
+    height: 150px
+    font-family: 'Berkshire Swash', cursive;
+    display: inline-block;
+    border-radius: 10px;
+    
+}
+
+#maincontent h2{
+
+	padding-top: 40px;
+	padding-bottom: 10px;
+	font-family: 'Vidaloka', serif;
+	font-weight: 900;
+	font-size: 48px;
+	color: lightgray;
+	
+
+}
+
+#maincontent h3{
+	font-size: 32px;
+	font-family: 'Berkshire Swash', cursive;
+	color: lightgray;
+}
+
+.oder{
+	   margin-top: 40px;
+	   box-shadow: 5px 5px 10px gray;
+	   
+	   background-color: #131320;
+	   height: 40px;
+	   line-height: 40px;
+	   display: inline-block;
+	   padding: 5px 15px 5px 15px;
+}
+
+.oder a{
+	text-decoration: none;
+	color: white;
+}
+
+.oder:hover{
+	background-color: dodgerblue;
+	transform: scale(1.1);
+}
+
+#social{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+
+.socialmedi{
+	width: 40px;
+	height: 40px;
+	margin-left: 30px;
+}
+.socialmedi:hover{
+	transform: scale(1.2);
+
+
+}
+
+
+#service{
+	box-sizing: border-box;
+	width: 100%;
+	height: 500px;
+	background-color: lightgray;
+	padding: 30px;
+}
+
+#service h1{
+	text-align: center;
+	font-size: 42px;
+	font-family: 'Vidaloka', serif;
+}
+
+
+.service-icon{
+	width: 350px;
+	height: 250px;
+	float: left;
+	padding: 20px;
+
+}
+.service{
+	margin-left: 20px;
+	width: 30%;
+	height: 400px;
+	float: left;
+	
+}
+
+.service h3{
+	text-align: center;
+	padding: 10px;
+}
+
+.service h3{
+	padding: 20px;
+	text-align: center;
+	font-size: 24px;
+	font-family: 'Vidaloka', serif;
+
+}
+
+
+
+
+
+/*service end*/
+
+#todayspecial{
+	width: 100%;
+	height: 500px;
+	background-color: #131320;
+}
+
+
+.today{
+	width: 350px;
+	height: 250px;
+	float: left;
+	padding: 20px;
+
+}
+.special{
+	margin-left: 30px;
+	width: 30%;
+	height: 400px;
+	float: left;
+	
+}
+
+.special h3{
+	text-align: center;
+	color: white;
+}
+
+.special p{
+	padding: 20px;
+	color: white;
+}
+
+article{
+
+	width: 100%;
+	height: 1400px;
+	margin: auto;
+	
+	background-color: gray;
+
+}
+
+
+
+#dishes h2{
+
+        margin-left: 20px;
+        
+        padding: 20px;
+        color: white;
+
+}
+.food{
+	width: 340px;
+	height: 250px;
+	float: left;
+	padding: 40px;
+}
+
+article h4{
+	text-align: right;
+	display: inline-block;
+	padding: 10px;
+	background-color: #1E1F24;
+	border-radius: 10px;
+	float: right;
+
+
+}
+
+article h4 a{
+	text-decoration: none;
+	color: white;
+}
+
+article h4:hover{
+	background-color: dodgerblue;
+}
+
+
+
+
+footer{
+
+	clear: both;
+	background-color: #131320;
+	width: 100%;
+	height: 250px;
+}
+
+footer h2{
+text-align: center;
+font-size: 36px;
+font-family: 'Vidaloka', serif;
+padding: 20px;
+color: lightgray;
+}
+.con-info{
+	margin-top: 20px;
+	margin-left: 20px;
+	width: 28%;
+	height: 150px;
+	padding: 20px;
+	float: left;
+	color: lightgray;
+
+}
+
+.con-box{
+	background-color: gray; 
+	padding: 2px;
+	border-radius: 5px;
+}
+
+
+.con-box:hover{
+	background-color: dodgerblue;
+}
+
+/*menus*/
+
+
+#ourmenu-logo{
+	width: 100%;
+	height: 300px;
+	background-color: #0475ab;
+	box-sizing: border-box;
+}
+
+.ourmenu{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	margin-top: 30px;
+}
+#brackfast,#lunch,#dinner{
+	width: 100%;
+	
+	
+}
+
+#brackfast{
+	background-color: #1E1F24;;
+	height: 900px;
+}
+
+#lunch{
+	
+	height: 900px;
+	background-color: gray;
+}
+
+#dinner{
+	background-color: #1E1F24;;
+	height: 900px;
+}
+
+
+.menu{
+	width: 350px;
+	height: 250px;
+	float: left;
+	padding: 20px;
+}
+.item{
+	margin-left: 30px;
+	width: 30%;
+	height: 420px;
+	float: left;
+	
+}
+
+.item h3{
+	background-color:#2E3D36; 
+	text-align: center;
+	color: white;
+	padding: 10px;
+	font-family: 'Vidaloka', serif;
+}
+
+.item p{
+	padding: 20px;
+
+	color: white;
+	font-size: 16px;
+	font-family: 'Vidaloka', serif;
+}
+
+/*aboutus*/
+
+#aboutmain-image{
+	width: 90%;
+	height: 400px;
+	margin: auto;
+	margin-top: 50px;
+
+}
+
+.aboutimage{
+	width: 100%;
+	height: 500px;
+	border-radius: 40px 30px;
+}
+
+#blank{
+	height: 200px;
+	width: 100%;
+	background-color: lightgray ;
+}
+
+#history{
+	width: 100%;
+	height: 300px;
+	background-color:  lightgray;
+
+}
+
+#history h1{
+	font-size: 42px;
+	text-align: center;
+
+}
+
+#history p{
+	padding: 50px;
+	font-size: 26px;
+}
+
+#team{
+	width: 100%;
+	height: 950px;
+	padding: 20px;
+	box-sizing: border-box;
+	background-color: #2E3D36;
+
+
+
+}
+
+.teamlogo-image{
+	background-color: gray;
+
+}
+
+.teamlogo{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	margin-top: 30px;
+	height: 200px;
+
+}
+
+.chef{
+	padding: 30px;
+	float: left;
+	border-radius: 50%;
+
+}
+
+.chef p{
+	float: right;
+	width: 80%;
+	color: lightgray;
+	font-size: 22px;
+}
+
+.member{
+
+	width: 150px;
+	height: 150px;
+}
+
+.employees-list{
+	padding: 30px;
+	width: 20%;
+	height: 200px;
+	float: left;
+}
+
+.employee{
+
+	width: 150px;
+	height: 150px;
+}
+
+.employees-list p{
+	color: white;
+	padding: 20px;
+	
+}
+ 
+
+/*contact us*/
+
+#contact-main{
+	width: 100%;
+	height: 900px;
+	background-color:  #2E3D36; 
+	padding-top: 50px;
+	
+}
+
+.container{
+	width: 80%;
+	border-radius: 20px 20px 0px 0px;
+	box-sizing: border-box;
+	height: 800px;
+	margin: auto;
+	background-color: #1E1F24;
+}
+
+.contact-baner{
+	width: 100%;
+	height: 200px;
+	border-radius: 20px 20px 0px 0px;
+}
+
+.address{
+	padding: 30px;
+	display: block;
+	width: 30%;
+	float: left;
+	
+}
+
+.address h3{
+	color: white;
+	font-family: 'Vidaloka', serif;
+}
+
+.con-tea{
+	width: 400px;
+	height: 250px
+	margin: 80px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	margin-top: 60px;
+
+}
+.con-tea-image{
+	
+	float: right;
+	width: 60%;
+
+}
+
+
+
+#con-social{
+	margin-top: 80px;
+	clear: both;
+	margin-left:auto;
+	margin-right: auto;
+	display: inline-block;
+	border-bottom: 5px solid lightgray;
+	padding-bottom: 20px;
+}
+
+#con-social h3{
+	font-size: 28px;
+	font-family: font-family: 'Vidaloka', serif;
+	color: white;
+}
+.fb{
+	width: 60px;
+	height: 60px;
+	padding: 10px;
+
+}
+
+.fb:hover{
+	transform: scale(1.2);
+}
+
+
+
+@media only screen and (max-width: 640px) {
+
+	main{width: 100%;
+	}
+
+	nav{
+		width: 100%;
+
+		
+	}
+
+	nav ul{
+		margin-left: 0px;
+		
+	}
+
+	nav ul li{
+
+		width: 100%;
+		background-color: orange;
+		text-align: center;
+	}
+
+	nav ul li:hover{
+		background-color: blue;
+	}
+
+	.today{
+
+		width: 100%;
+	}
+
+	.item{
+		width: 100%;
+	}
+
+	.food{
+		width: 100%;
+	}
+
+	#todayspecial{
+		height: 1500px;
+		margin-top: 1px solid black;
+	}
+
+	.ourmenu{
+		width: 100%;
+	}
+}
